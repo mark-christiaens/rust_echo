@@ -1,0 +1,19 @@
+[package]
+
+name          = "echo_server"
+version       = "0.0.1-pre"
+license       = "MIT"
+authors       = ["Carl Lerche <me@carllerche.com>", 
+                 "Mark Christiaens <mark.g.j.christiaens@gmail.com>"]
+description   = "Echo server"
+exclude       = [
+  ".gitignore",
+  ".travis.yml",
+  "deploy.sh",
+  "test/**/*",
+]
+
+[dependencies]
+mio = "*"
+bytes = "*"
+
